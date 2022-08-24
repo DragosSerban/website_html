@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-color: black;
+	height: 80px;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+um{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+despre{
+	float: left;
+	font-size: 25px;
+	font-weight: 900;
+	margin-top: 150px;
+	margin-right: 50px;
+	color: black;
+}
+
+text{
+	font-size: 25px;
+	font-weight: 900;
+	margin-top: 150px;
+	margin-right: 50px;
+	color: black;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px transparent;
+	transition: 0.5s;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+
+um li{
+	display: inline-block;
+}
+
+um li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px transparent;
+	transition: 0.5s;
+}
+
+um li a:hover{
+	background-color: black;
+	color: white;
+}
+
+um li.active a{
+	background-color: black;
+	color: white;
+}
+
+un li{
+    display: inline-block;
+}
+
+un li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px transparent;
+	transition: 0.5s;
+}
+
+un li a:hover{
+	background-color: black;
+	color: white;
+}
+
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+	margin-top: 15px;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+art1 li
+{
+    margin-top: 75px;
+}
+art1 li a{
+	margin-top: 200px;
+    padding: 10px 160px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	background-size: cover;
+}
